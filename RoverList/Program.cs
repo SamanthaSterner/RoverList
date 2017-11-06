@@ -12,6 +12,16 @@ namespace RoverList
         {
             // TODO:  Implement the RoverList class
             // TODO:  Create a RoverList and then fill it with 16 words
+            RoverList list = new RoverList();
+            list.Add("Hello");
+            list.Add("World");
+            list.Add("It's");
+            list.Add("nice");
+            list.Add("to");
+            list.Add("meet");
+            list.Add("you");
+
+            list.ListNodes();
 
             // TODO:  Print out the list
 
